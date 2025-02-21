@@ -21,7 +21,7 @@ app.get('/proxy-audio', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-  return res.status(400).send('Proxy ativo ', new Date().toISOString());
+  return res.status(400).send('Proxy ativo ');
 });
 
 app.listen(port, () => {
